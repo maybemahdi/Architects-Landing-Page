@@ -298,6 +298,8 @@ main {
 }
 
 .box p {
+    width: fit-content;
+    margin: auto;
     color: #727272;
     text-align: center;
     font-size: 20px;
@@ -348,7 +350,7 @@ footer {
     margin: 85px 200px;
     border-radius: 8px;
     background: #FFF4E7;
-    padding: 39px;
+    padding: 30px;
     text-align: center;
     color: #424242;
     font-size: 20px;
@@ -407,7 +409,9 @@ footer {
     .fact {
         margin: 20px;
     }
-
+    .fact p {
+        width: 100%;
+    }
     .fact .boxes {
         flex-direction: column;
         gap: 25px;
@@ -416,13 +420,16 @@ footer {
     .sponsor {
         margin: 85px 20px;
     }
-
+    .sponsor p{
+        width: 100%;
+    }
     .sp-item {
 
         gap: 50px;
     }
     footer{
         margin: 20px;
+        padding: 15px;
     }
 }
 
@@ -487,11 +494,14 @@ footer {
     .sponsor {
         margin: 85px 20px;
     }
-
+    .sponsor p{
+        width: 100%;
+    }
     .sp-item {
         gap: 50px;
     }
     footer{
         margin: 20px;
+        padding: 15px;
     }
 }
